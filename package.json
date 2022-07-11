@@ -1,0 +1,30 @@
+{
+  "name": "api-twitterclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaofreitas-dev/api-twitterclone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaofreitas-dev/api-twitterclone/issues"
+  },
+  "homepage": "https://github.com/joaofreitas-dev/api-twitterclone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
